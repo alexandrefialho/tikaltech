@@ -17,7 +17,7 @@ def get_index(request):
 
         {
             "indice": 0,
-            "data": "[ABC[23]][89]"
+            "texto": "[ABC[23]][89]"
         }
 
         *** Resposta de sucesso ***
