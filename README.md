@@ -33,3 +33,11 @@ Pronto agora estamos dentro de um ambiente virtual seguro para que possamos inst
 ```
 pip install -r requirements.txt
 ```
+
+Após isso, estamos preparados para executar o projeto, então vamos lá, em seu terminal execute o seguinte comando:
+
+```
+python manage.py runserver
+```
+
+Esse comando ira criar uma instancia do projeto dentro da sua maquina apontando pra port
