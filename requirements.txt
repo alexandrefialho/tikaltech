@@ -1,2 +1,5 @@
 Django==2.1
 django-rest-swagger
+djangorestframework
+psycopg2-binary
+flake8
