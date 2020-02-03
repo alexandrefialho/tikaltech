@@ -40,4 +40,4 @@ Após isso, estamos preparados para executar o projeto, então vamos lá, em seu
 python manage.py runserver
 ```
 
-Esse comando ira criar uma instância do projeto dentro da sua maquina apontando para porta 8000, para acessar, vá até seu browser e digite na barra de endereço http://localhost:8000
+Esse comando ira criar uma instância do projeto dentro da sua maquina apontando para porta 8000 por padrão, para acessar, vá até seu browser e digite na barra de endereço http://localhost:8000
