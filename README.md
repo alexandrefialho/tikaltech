@@ -8,17 +8,28 @@ MacOS: https://www.python.org/ftp/python/3.7.3/python-3.7.3-macosx10.9.pkg
 
 Windows: https://www.python.org/ftp/python/3.7.3/python-3.7.3-amd64.exe
 
-Após a instalação do python ser concluida, precisaremos instalar o virtualenv para que possamos criar ambientes virtuals para encapsular as dependências do projeto, mas antes iremos verificar se a instalação do python deu certo, para isso, acesse seu terminal e execute os seguintes comandos:
+Após a instalação do python ser concluida, precisaremos instalar o Virtualenv para que possamos criar ambientes virtuals para encapsular as dependências do projeto.
 
-```
-python --version
-pip --version
-```
-
-Em seu terminal, execute a seguinte o seguinte comando:
+Em seu terminal, execute o seguinte comando:
 
 ```
 pip install virtualenv
 ```
 
-Após a instalação ser concluída, a
+Após a instalação do Virtualenv ser concluída, vá até a raiz do projeto tikaltech e execute o seguinte comando:
+
+```
+virtualenv venv
+```
+
+Em seguida, iremos acessar esse ambiente virtual que acabamos de criar, então em seu terminal execute o seguinte comando:
+
+```
+source venv/bin/activate
+```
+
+Pronto agora estamos dentro de um ambiente virtual seguro para que possamos instalar as dependências do projeto, para isso iremos executar o seguinte comando:
+
+```
+pip install -r requirements.txt
+```
