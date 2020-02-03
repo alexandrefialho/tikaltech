@@ -8,11 +8,17 @@ MacOS: https://www.python.org/ftp/python/3.7.3/python-3.7.3-macosx10.9.pkg
 
 Windows: https://www.python.org/ftp/python/3.7.3/python-3.7.3-amd64.exe
 
-Após a instalação do python ser concluida, precisaremos instalar o virtualenv pra encapsular as dependências do projeto, então vamos lá.
+Após a instalação do python ser concluida, precisaremos instalar o virtualenv para que possamos criar ambientes virtuals para encapsular as dependências do projeto, mas antes iremos verificar se a instalação do python deu certo, para isso, acesse seu terminal e execute os seguintes comandos:
 
-# Mão na massa
+```
+python --version
+pip --version
+```
 
 Em seu terminal, execute a seguinte o seguinte comando:
 
 ```
 pip install virtualenv
+```
+
+Após a instalação ser concluída, a
